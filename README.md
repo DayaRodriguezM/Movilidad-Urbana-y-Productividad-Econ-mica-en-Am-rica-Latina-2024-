@@ -74,10 +74,23 @@ Preguntas complementarias:
 
 ## 📊 Principales Hallazgos
 
-### Congestión vs Productividad
-- Se observa una **relación negativa moderada a fuerte** entre congestión y productividad económica.
-- La correlación entre **mins_delay** y **PIB per cápita** es aproximadamente **r ≈ –0,6**.
-- Ciudades con mayores retrasos efectivos tienden a presentar menor productividad por habitante.
+### Distribución del PIB per cápita en América Latina
+
+![Distribución PIB per cápita](imagenes/Distribucion_PIB_promedio.png)
+
+La distribución del PIB per cápita muestra un promedio regional de $13,254 USD, con la mayoría de ciudades concentradas en el rango medio-bajo.
+
+### Análisis de Congestión Urbana
+
+![Análisis de retraso total](imagenes/Retraso_total_promedio.png)
+
+El boxplot revela valores atípicos significativos en congestión, con un promedio de 629.52 minutos de retraso, indicando disparidades importantes entre ciudades.
+
+### Relación Congestión vs Productividad Económica
+
+![PIB vs Congestión](imagenes/PIB_vs_congestion.png)
+
+**Hallazgo clave:** Se observa una relación compleja entre congestión urbana y productividad económica, donde ciudades como México City presentan alta congestión pero mantienen niveles económicos competitivos.
 
 ### Desempeño por Ciudad
 **Peor desempeño combinado**
