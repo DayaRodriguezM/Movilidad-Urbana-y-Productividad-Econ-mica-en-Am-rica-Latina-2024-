@@ -82,7 +82,7 @@ La distribución del PIB per cápita en América Latina muestra un promedio regi
 
 ### 2. Patrones de Congestión Urbana
 
-![Análisis de retraso total](imagenes/Retraso_total_promedio.png)
+![Análisis de retraso total](images/Retraso_total_promedio.png)
 
 El análisis de congestión revela un promedio de **629.52 minutos de retraso**, con valores atípicos que indican diferencias extremas en la eficiencia del transporte urbano entre ciudades.
 
