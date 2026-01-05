@@ -88,7 +88,7 @@ El análisis de congestión revela un promedio de **629.52 minutos de retraso**,
 
 ### 3. Relación Congestión vs Productividad
 
-![PIB vs Congestión](imagenes/PIB_vs_congestion.png)
+![PIB vs Congestión](images/PIB_vs_congestion.png)
 
 #### Correlación Identificada
 - Se observa una **relación negativa moderada a fuerte** entre congestión y productividad económica
