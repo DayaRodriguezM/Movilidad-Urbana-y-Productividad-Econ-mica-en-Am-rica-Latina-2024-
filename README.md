@@ -144,3 +144,20 @@ Preguntas complementarias:
 
 ## 📂 Estructura del Repositorio
 
+ data/
+ 
+   └── movilidad_latam_2024.csv
+   
+notebooks/
+
+   └── analisis_movilidad_productividad.ipynb
+   
+images/
+
+   └── (todas tus visualizaciones)
+
+
+## 📌 Conclusión
+La congestión urbana representa un **costo económico cuantificable**.  
+Con una correlación de **r ≈ –0,6**, cada minuto adicional de retraso por cada 10 km recorridos se asocia con menor productividad urbana.  
+**Bogotá y Lima** emergen como oportunidades prioritarias de inversión, mientras que **Montevideo y Buenos Aires** actúan como benchmarks regionales de eficiencia urbana.
