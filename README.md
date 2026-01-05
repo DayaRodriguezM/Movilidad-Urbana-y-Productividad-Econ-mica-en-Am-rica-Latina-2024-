@@ -74,41 +74,45 @@ Preguntas complementarias:
 
 ## 📊 Principales Hallazgos
 
-### Distribución del PIB per cápita en América Latina
+### 1. Panorama Regional: Distribución Económica
 
 ![Distribución PIB per cápita](imagenes/Distribucion_PIB_promedio.png)
 
-La distribución del PIB per cápita muestra un promedio regional de $13,254 USD, con la mayoría de ciudades concentradas en el rango medio-bajo.
+La distribución del PIB per cápita en América Latina muestra un promedio regional de **$13,254 USD**, con la mayoría de países concentrados en el rango medio-bajo, evidenciando disparidades económicas significativas en la región.
 
-### Análisis de Congestión Urbana
+### 2. Patrones de Congestión Urbana
 
 ![Análisis de retraso total](imagenes/Retraso_total_promedio.png)
 
-El boxplot revela valores atípicos significativos en congestión, con un promedio de 629.52 minutos de retraso, indicando disparidades importantes entre ciudades.
+El análisis de congestión revela un promedio de **629.52 minutos de retraso**, con valores atípicos que indican diferencias extremas en la eficiencia del transporte urbano entre ciudades.
 
-### Relación Congestión vs Productividad Económica
+### 3. Relación Congestión vs Productividad
 
 ![PIB vs Congestión](imagenes/PIB_vs_congestion.png)
 
-**Hallazgo clave:** Se observa una relación compleja entre congestión urbana y productividad económica, donde ciudades como México City presentan alta congestión pero mantienen niveles económicos competitivos.
+#### Correlación Identificada
+- Se observa una **relación negativa moderada a fuerte** entre congestión y productividad económica
+- La correlación entre **mins_delay** y **PIB per cápita** es aproximadamente **r ≈ –0,6**
+- Ciudades con mayores retrasos efectivos tienden a presentar menor productividad por habitante
 
-### Desempeño por Ciudad
-**Peor desempeño combinado**
+#### Desempeño por Ciudad
+
+**🔴 Peor desempeño combinado:**
 - **Bogotá** y **Lima**  
   - Alta congestión (1,70 y 1,51 min por cada 10 km)
   - Bajo PIB per cápita (USD 11.442 y USD 13.472)
 
-**Mejor desempeño combinado**
+**🟢 Mejor desempeño combinado:**
 - **Buenos Aires** y **Montevideo**  
   - Congestión baja o moderada (≤0,42 min)
   - PIB per cápita alto (USD 18.117 y USD 26.176)
 
-**Insight exploratorio**
-- Reducir la congestión de Bogotá a niveles similares a Buenos Aires podría asociarse a una **mejora potencial del 10–15% en productividad efectiva**.
+#### Casos Especiales (Outliers)
+- **Ciudad de México**: Alta congestión pero PIB per cápita elevado (efecto escala metropolitana)
+- **Santiago**: Congestión moderada con PIB per cápita menor al esperado (requiere validación de datos)
 
-### Outliers
-- **Ciudad de México**: alta congestión y PIB per cápita elevado (efecto escala).
-- **Santiago**: congestión moderada con PIB per cápita menor al esperado (requiere validación de datos).
+### 4. Insight Estratégico
+**Potencial de mejora:** Reducir la congestión de Bogotá a niveles similares a Buenos Aires podría asociarse a una **mejora potencial del 10–15% en productividad efectiva**.
 
 ---
 
