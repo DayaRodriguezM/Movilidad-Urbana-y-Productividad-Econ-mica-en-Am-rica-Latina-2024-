@@ -76,7 +76,7 @@ Preguntas complementarias:
 
 ### 1. Panorama Regional: Distribución Económica
 
-![Distribución PIB per cápita](imagenes/Distribucion_PIB_promedio.png)
+![Distribución PIB per cápita](images/Distribucion_PIB_promedio.png)
 
 La distribución del PIB per cápita en América Latina muestra un promedio regional de **$13,254 USD**, con la mayoría de países concentrados en el rango medio-bajo, evidenciando disparidades económicas significativas en la región.
 
